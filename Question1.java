@@ -13,13 +13,13 @@ import java.util.Scanner;
 //if possible use single for loop avoid nested loop
 //naming format
 
-public class Question2 {
+public class Question1 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("enter 1st and 2nd 1D array size");
 		int size = scan.nextInt();
-		int[] firstArr = new int[size];
+		int[] Arr= new int[size];
 
 		System.out.println("enter 1st 1D " + size + " elements");
 		for (int i = 0; i < firstArr.length; i++) {
